@@ -1,0 +1,56 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #555;
+}
+
+/* Disabled button */
+.button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Button with outline */
+.button-outline {
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333;
+}
+
+.button-outline:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+/* Example usage */
+button {
+    margin: 10px;
+}
+
+.input-field {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border: 2px solid #333;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #555;
+}
